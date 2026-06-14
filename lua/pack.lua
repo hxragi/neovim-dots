@@ -63,5 +63,11 @@ vim.api.nvim_create_autocmd("FileType", {
     end
   end,
 })
+
 --- blink cmp ---
-require('blink-cmp').setup()
+require('blink-cmp').setup({
+  keymap = {
+    preset = "default",
+    ["<CR>"] = { "accept", "fallback" },
+  },
+})
