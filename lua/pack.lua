@@ -22,6 +22,7 @@ vim.cmd('colorscheme catppuccin-mocha')
 require('nvim-tree').setup({
   view = {
     side = "right",
+    width = 45,
   },
 })
 
