@@ -7,6 +7,9 @@ vim.pack.add({
   'https://github.com/nvim-treesitter/nvim-treesitter',
   'https://github.com/neovim/nvim-lspconfig',
   { src = 'https://github.com/Saghen/blink.cmp', branch = "v1" },
+  'https://github.com/nvim-telescope/telescope.nvim',
+  'https://github.com/nvim-lua/plenary.nvim',
+  'https://github.com/nvim-telescope/telescope-fzf-native.nvim'
 })
 
 --- catppuccin theme ---

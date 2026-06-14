@@ -18,4 +18,7 @@ vim.keymap.set({ "n" }, "<Leader>bdd", '<cmd>%bd|edit#|bd#<CR>')
 vim.keymap.set({ "n" }, "<Leader><Left>", '<cmd>:bp<CR>')
 vim.keymap.set({ "n" }, "<Leader><Right>", '<cmd>:bn<CR>')
 
-
+--- telescope ---
+local builtin = require('telescope.builtin')
+vim.keymap.set('n', '<leader>ff', builtin.find_files, { desc = 'Telescope find files' })
+vim.keymap.set('n', '<leader>fg', builtin.live_grep, { desc = 'Telescope live grep' })
