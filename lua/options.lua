@@ -26,6 +26,7 @@ opt.incsearch = true
 opt.ignorecase = true
 opt.smartcase = true
 opt.smartindent = true
+opt.clipboard = "unnamedplus"
 
 -- Performance & Behavior
 opt.backup = false

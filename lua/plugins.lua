@@ -112,3 +112,6 @@ require('cord').setup({
   idle = { enabled = false },
   display = { theme = "catppuccin" },
 })
+
+-- Mason
+require("mason").setup()
